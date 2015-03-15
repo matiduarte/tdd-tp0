@@ -3,13 +3,15 @@ package ar.fiuba.tecnicas.rockpaperscissors;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-
+import ar.fiuba.tecnicas.rockpaperscissors.Rock;
+import ar.fiuba.tecnicas.rockpaperscissors.Paper;
+import ar.fiuba.tecnicas.rockpaperscissors.Scissor;
 
 public class RulesTest {
 
-    private XXXXXX rock = XXXXXX;
-    private XXXXXX paper = XXXXXX;
-    private XXXXXX scissors = XXXXXX;
+    private Rock rock = new Rock();
+    private Paper paper = new Paper();
+    private Scissor scissors = new Scissor();
 
     @Test
     public void rockBeatsScissors() {
