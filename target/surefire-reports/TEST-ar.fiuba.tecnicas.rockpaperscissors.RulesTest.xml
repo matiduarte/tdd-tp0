@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/matias/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6698720318370139542.tmp"/>
+    <property name="classworlds.conf" value="/home/matias/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6496001114329640517.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -64,9 +64,9 @@
   <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="rockTieWithRock" time="0"/>
   <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="rockBeatsScissors" time="0"/>
   <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="scissorsLostWithRock" time="0"/>
-  <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="paperTieWithPaper" time="0"/>
+  <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="paperTieWithPaper" time="0.001"/>
   <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="paperBeatsRock" time="0"/>
-  <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="scissorsTieWithScissors" time="0"/>
+  <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="scissorsTieWithScissors" time="0.001"/>
   <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="scissorsBeatsPaper" time="0"/>
   <testcase classname="ar.fiuba.tecnicas.rockpaperscissors.RulesTest" name="rockLostWithPaper" time="0"/>
 </testsuite>
